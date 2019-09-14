@@ -1,0 +1,13 @@
+F:\project\ConsulExample\Identity\bin\Debug\netcoreapp2.2\Identity.deps.json
+F:\project\ConsulExample\Identity\bin\Debug\netcoreapp2.2\Identity.runtimeconfig.json
+F:\project\ConsulExample\Identity\bin\Debug\netcoreapp2.2\Identity.runtimeconfig.dev.json
+F:\project\ConsulExample\Identity\bin\Debug\netcoreapp2.2\Identity.dll
+F:\project\ConsulExample\Identity\obj\Debug\netcoreapp2.2\Identity.csproj.CoreCompileInputs.cache
+F:\project\ConsulExample\Identity\obj\Debug\netcoreapp2.2\Identity.RazorAssemblyInfo.cache
+F:\project\ConsulExample\Identity\obj\Debug\netcoreapp2.2\Identity.RazorAssemblyInfo.cs
+F:\project\ConsulExample\Identity\obj\Debug\netcoreapp2.2\Identity.AssemblyInfoInputs.cache
+F:\project\ConsulExample\Identity\obj\Debug\netcoreapp2.2\Identity.AssemblyInfo.cs
+F:\project\ConsulExample\Identity\obj\Debug\netcoreapp2.2\Identity.RazorTargetAssemblyInfo.cache
+F:\project\ConsulExample\Identity\bin\Debug\netcoreapp2.2\Identity.pdb
+F:\project\ConsulExample\Identity\obj\Debug\netcoreapp2.2\Identity.dll
+F:\project\ConsulExample\Identity\obj\Debug\netcoreapp2.2\Identity.pdb
