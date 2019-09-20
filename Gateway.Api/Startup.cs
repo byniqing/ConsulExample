@@ -19,19 +19,19 @@ namespace Api.Gateway
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            //var authenticationProviderKey = "TestKey";
+            var authenticationProviderKey = "TestKey";
 
             ////依赖包:IdentityServer4.AccessTokenV
-            //Action<IdentityServerAuthenticationOptions> options = o =>
-            //{
-            //    o.Authority = "http://localhost:5001";
-            //    o.ApiName = "gateway_api";
-            //    o.SupportedTokens = SupportedTokens.Both;
-            //    o.ApiSecret = "secret";
-            //    o.RequireHttpsMetadata = false;
-            //};
-            //services.AddAuthentication()
-            //    .AddIdentityServerAuthentication(authenticationProviderKey, options);
+            Action<IdentityServerAuthenticationOptions> options = o =>
+            {
+                o.Authority = "http://localhost:5005";
+                o.ApiName = "gateway_api";
+                o.SupportedTokens = SupportedTokens.Both;
+                o.ApiSecret = "secret";
+                o.RequireHttpsMetadata = false;
+            };
+            services.AddAuthentication()
+                .AddIdentityServerAuthentication(authenticationProviderKey, options);
 
 
             services.AddOcelot().AddConsul();
@@ -45,7 +45,7 @@ namespace Api.Gateway
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseOcelot();
+            app.UseOcelot();//.Wait();
 
             //app.Run(async (context) =>
             //{

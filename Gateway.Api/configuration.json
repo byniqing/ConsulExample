@@ -25,20 +25,25 @@
 }
 */
 /*¶¯Ì¬Â·ÓÉ*/
+/*
+  https://www.cnblogs.com/Zhang-Xiang/p/10437488.html
+*/
 {
   "ReRoutes": [],
   "Aggregates": [],
+
   "GlobalConfiguration": {
     "RequestIdKey": null,
     "ServiceDiscoveryProvider": {
-      "Host": "localhost",
+      "Host": "39.105.144.51", /*Consul Client Address*/
       "Port": 8500,
       "Type": "Consul",
-      "Token": null,
+      "Token": "",
       "ConfigurationKey": null
+    
     },
-
-    "BaseUrl": "http://localhost:81",
+    
+    "BaseUrl": "http://43.243.49.57:81",
     "LoadBalancerOptions": {
       "Type": "LeastConnection",
       "Key": null,

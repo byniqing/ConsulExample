@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\project\\ConsulExample\\Identity\\Identity.csproj": {}
+    "F:\\consulApi\\Identity\\Identity.csproj": {}
   },
   "projects": {
-    "F:\\project\\ConsulExample\\Identity\\Identity.csproj": {
+    "F:\\consulApi\\Identity\\Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\project\\ConsulExample\\Identity\\Identity.csproj",
+        "projectUniqueName": "F:\\consulApi\\Identity\\Identity.csproj",
         "projectName": "Identity",
-        "projectPath": "F:\\project\\ConsulExample\\Identity\\Identity.csproj",
+        "projectPath": "F:\\consulApi\\Identity\\Identity.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "F:\\project\\ConsulExample\\Identity\\obj\\",
+        "outputPath": "F:\\consulApi\\Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",

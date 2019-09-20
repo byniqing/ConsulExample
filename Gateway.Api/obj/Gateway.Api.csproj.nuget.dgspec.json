@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\project\\ConsulExample\\Gateway.Api\\Gateway.Api.csproj": {}
+    "F:\\consulApi\\Gateway.Api\\Gateway.Api.csproj": {}
   },
   "projects": {
-    "F:\\project\\ConsulExample\\Gateway.Api\\Gateway.Api.csproj": {
+    "F:\\consulApi\\Gateway.Api\\Gateway.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\project\\ConsulExample\\Gateway.Api\\Gateway.Api.csproj",
+        "projectUniqueName": "F:\\consulApi\\Gateway.Api\\Gateway.Api.csproj",
         "projectName": "Gateway.Api",
-        "projectPath": "F:\\project\\ConsulExample\\Gateway.Api\\Gateway.Api.csproj",
+        "projectPath": "F:\\consulApi\\Gateway.Api\\Gateway.Api.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "F:\\project\\ConsulExample\\Gateway.Api\\obj\\",
+        "outputPath": "F:\\consulApi\\Gateway.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",

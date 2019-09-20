@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  order.api:
+    build: 
+      context: Order.Api
+      dockerfile: dockerfile
+    container_name: 'orderapi'
+    restart: always
+    volumes:
+      - /volume/api/OrderApi/appsettings.json:/app/appsettings.json
+    ports:
+      - '6002:80'
+  user.api:
+    build: 
+      context: User.Api
+      dockerfile: dockerfile
+    container_name: 'userapi'
+    restart: always
+    volumes:
+      - /volume/api/UserApi/appsettings.json:/app/appsettings.json
+    ports:
+      - '6001:80'
