@@ -12,20 +12,6 @@ F:\project\ConsulExample\Api.Gateway\obj\Debug\netcoreapp2.2\Gateway.Api.Assembl
 F:\project\ConsulExample\Api.Gateway\obj\Debug\netcoreapp2.2\Gateway.Api.RazorTargetAssemblyInfo.cache
 F:\project\ConsulExample\Api.Gateway\obj\Debug\netcoreapp2.2\Gateway.Api.dll
 F:\project\ConsulExample\Api.Gateway\obj\Debug\netcoreapp2.2\Gateway.Api.pdb
-F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.deps.json
-F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.runtimeconfig.json
-F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.runtimeconfig.dev.json
-F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.dll
-F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.pdb
-F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.csprojAssemblyReference.cache
-F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.csproj.CoreCompileInputs.cache
-F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.RazorAssemblyInfo.cache
-F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.RazorAssemblyInfo.cs
-F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.AssemblyInfoInputs.cache
-F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.AssemblyInfo.cs
-F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.RazorTargetAssemblyInfo.cache
-F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.dll
-F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.pdb
 C:\study\ConsulTest\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.deps.json
 C:\study\ConsulTest\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.runtimeconfig.json
 C:\study\ConsulTest\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.runtimeconfig.dev.json
@@ -52,3 +38,24 @@ F:\consulApi\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.AssemblyInfo.cs
 F:\consulApi\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.RazorTargetAssemblyInfo.cache
 F:\consulApi\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.dll
 F:\consulApi\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.pdb
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\appsettings.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\configuration - 复制(2).json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\configuration - 复制.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\configuration.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\configuration1.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Ocelot.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.deps.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.runtimeconfig.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.runtimeconfig.dev.json
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.dll
+F:\project\ConsulExample\Gateway.Api\bin\Debug\netcoreapp2.2\Gateway.Api.pdb
+F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.csprojAssemblyReference.cache
+F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.RazorAssemblyInfo.cache
+F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.RazorAssemblyInfo.cs
+F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.AssemblyInfoInputs.cache
+F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.AssemblyInfo.cs
+F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.RazorTargetAssemblyInfo.cache
+F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.dll
+F:\project\ConsulExample\Gateway.Api\obj\Debug\netcoreapp2.2\Gateway.Api.pdb

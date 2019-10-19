@@ -15,4 +15,6 @@
  WORKDIR /app
  COPY --from=build /source/out .
  EXPOSE 80
+ #ENV ASPNETCORE_URLS http://39.105.144.51:80
  ENTRYPOINT ["dotnet","User.Api.dll"]
+

@@ -1,34 +1,27 @@
 {
-  /* 最简单方式
   "ReRoutes": [
     {
       "DownstreamPathTemplate": "/api/users",
       "DownstreamScheme": "http",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
-          "Port": 5000
+          "Host": "39.105.144.51",
+          "Port": 6001
+        },
+        {
+          "Host": "43.243.49.57",
+          "Port": 5001
         }
       ],
       "UpstreamPathTemplate": "/users",
       "UpstreamHttpMethod": [ "Get" ]
-    }*/
-  "ReRoutes": [
-    {
-      "DownstreamPathTemplate": "/api/users",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 5000
-        }
-      ],
-      "UpstreamPathTemplate": "/users",
-      "UpstreamHttpMethod": [ "Get" ],
-      "AuthenticationOptions": {
-        "AuthenticationProviderKey": "TestKey",
-        "AllowedScopes": []
-      }
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "TestKey",
+      //  "AllowedScopes": []
+      //}
     }
   ],
   "GlobalConfiguration": {

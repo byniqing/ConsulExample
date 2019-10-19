@@ -3,8 +3,8 @@ version: '3'
 services:
   order.api:
     build: 
-      context: Order.Api
-      dockerfile: dockerfile
+      context: .
+      dockerfile: Order.Api/dockerfile
     container_name: 'orderapi'
     restart: always
     volumes:
@@ -13,8 +13,8 @@ services:
       - '6002:80'
   user.api:
     build: 
-      context: User.Api
-      dockerfile: dockerfile
+      context: .
+      dockerfile: User.Api/dockerfile
     container_name: 'userapi'
     restart: always
     volumes:

@@ -18,16 +18,10 @@ namespace Order.Api.Controllers
             _configuration = configuration;
         }
         [HttpGet]
-        public IActionResult Get()
+        public void Get()
         {
-            var service = _configuration["Service"].ToString();
-            return new JsonResult(new
-            {
-                id=1001,
-                pk = "cnblogs",
-                price = 18,
-                orderName = service
-            });
+            var ip = HttpContext.Connection.LocalIpAddress.ToString();
+            Response.WriteAsync($"the ip is :{ip},from OrderController");
         }
     }
 }

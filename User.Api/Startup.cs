@@ -100,6 +100,9 @@ namespace Api
                 //健康检查
                 var httpCheck = new AgentServiceCheck()
                 {
+                    /*
+                     服务不通了。多久后移除
+                     */
                     DeregisterCriticalServiceAfter = TimeSpan.FromMinutes(1),
                     Interval = TimeSpan.FromSeconds(30),
                     HTTP = new Uri(address, "api/HealthCheck").OriginalString
@@ -122,6 +125,10 @@ namespace Api
 
                 consul.Agent.ServiceRegister(registration).GetAwaiter().GetResult();
 
+                /*
+                 服务停止，主动从consul集群异常服务
+                 当然，如果不主动移除，consul集群也会移除，配置健康检查即可：DeregisterCriticalServiceAfter
+                 */
                 appLife.ApplicationStopping.Register(() =>
                 {
                     consul.Agent.ServiceDeregister(serviceId).GetAwaiter().GetResult();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\consulApi\\Gateway.Api\\Gateway.Api.csproj": {}
+    "F:\\project\\ConsulExample\\Gateway.Api\\Gateway.Api.csproj": {}
   },
   "projects": {
-    "F:\\consulApi\\Gateway.Api\\Gateway.Api.csproj": {
+    "F:\\project\\ConsulExample\\Gateway.Api\\Gateway.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\consulApi\\Gateway.Api\\Gateway.Api.csproj",
+        "projectUniqueName": "F:\\project\\ConsulExample\\Gateway.Api\\Gateway.Api.csproj",
         "projectName": "Gateway.Api",
-        "projectPath": "F:\\consulApi\\Gateway.Api\\Gateway.Api.csproj",
+        "projectPath": "F:\\project\\ConsulExample\\Gateway.Api\\Gateway.Api.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "F:\\consulApi\\Gateway.Api\\obj\\",
+        "outputPath": "F:\\project\\ConsulExample\\Gateway.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -70,10 +70,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

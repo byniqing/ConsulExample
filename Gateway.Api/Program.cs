@@ -23,7 +23,7 @@ namespace Api.Gateway
             {
                 builder
                 .SetBasePath(host.HostingEnvironment.ContentRootPath)
-                .AddJsonFile("configuration.json");
+                .AddJsonFile("Ocelot.json");
             })
             .UseUrls("http://+:81")
             .UseStartup<Startup>();

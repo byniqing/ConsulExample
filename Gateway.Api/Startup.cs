@@ -21,7 +21,7 @@ namespace Api.Gateway
         {
             var authenticationProviderKey = "TestKey";
 
-            ////依赖包:IdentityServer4.AccessTokenV
+            ////依赖包:IdentityServer4.AccessTokenValidation
             Action<IdentityServerAuthenticationOptions> options = o =>
             {
                 o.Authority = "http://localhost:5005";

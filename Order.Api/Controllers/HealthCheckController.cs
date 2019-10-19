@@ -11,10 +11,7 @@ namespace Order.Api.Controllers
     [ApiController]
     public class HealthCheckController : ControllerBase
     {
-        [HttpGet("")]
-        public IActionResult HealthCheck()
-        {
-            return Ok();
-        }
+        [HttpGet]
+        public IActionResult Get() => Ok();
     }
 }

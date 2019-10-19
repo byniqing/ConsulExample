@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\consulApi\\Identity\\Identity.csproj": {}
+    "F:\\project\\ConsulExample\\Identity\\Identity.csproj": {}
   },
   "projects": {
-    "F:\\consulApi\\Identity\\Identity.csproj": {
+    "F:\\project\\ConsulExample\\Identity\\Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\consulApi\\Identity\\Identity.csproj",
+        "projectUniqueName": "F:\\project\\ConsulExample\\Identity\\Identity.csproj",
         "projectName": "Identity",
-        "projectPath": "F:\\consulApi\\Identity\\Identity.csproj",
+        "projectPath": "F:\\project\\ConsulExample\\Identity\\Identity.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "F:\\consulApi\\Identity\\obj\\",
+        "outputPath": "F:\\project\\ConsulExample\\Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\",
@@ -66,10 +66,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

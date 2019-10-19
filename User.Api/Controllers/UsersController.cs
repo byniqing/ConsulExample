@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace Api.Controllers
 {
@@ -15,20 +16,18 @@ namespace Api.Controllers
     public class UsersController : ControllerBase
     {
         private IConfiguration _configuration;
-        public UsersController(IConfiguration configuration)
+        ILogger<UsersController> _logger;
+        public UsersController(IConfiguration configuration,ILogger<UsersController> logger)
         {
             _configuration = configuration;
+            _logger = logger;
         }
         [HttpGet]
-        public IActionResult Get()
+        public void Get()
         {
-            var service = _configuration["Service"].ToString();
-            return new JsonResult(new
-            {
-                name = "cnblogs",
-                age = 18,
-                service = service
-            });
+            _logger.LogDebug("ces");
+            var ip = HttpContext.Connection.LocalIpAddress.ToString();
+            Response.WriteAsync($"the ip is :{ip},from UsersController");
         }
     }
 }

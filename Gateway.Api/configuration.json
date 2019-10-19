@@ -1,54 +1,30 @@
-
-/*{
+{
   "ReRoutes": [
     {
-      "DownstreamPathTemplate": "/api/users",
+      "DownstreamPathTemplate": "/{url}",
       "DownstreamScheme": "http",
-      "UpstreamPathTemplate": "/users",
-      "UpstreamHttpMethod": [ "Get" ],
+      "UpstreamPathTemplate": "/{url}",
+      "UpstreamHttpMethod": [ "get", "post" ],
       "ServiceName": "UserService",
       //"LoadBalancer": "LeastConnection",
       "LoadBalancerOptions": {
         "Type": "LeastConnection"
       },
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "TestKey",
+      //  "AllowedScopes": []
+      //},
       "UseServiceDiscovery": true
     }
   ],
   "GlobalConfiguration": {
+    "RequestIdKey": "ab",
     //这是暴露给外部的url
     "BaseUrl": "http://localhost:81",
     "ServiceDiscoveryProvider": {
-      "Host": "localhost",
-      "Port": "8500"
+      "Host": "39.105.144.51",
+      "Port": "8500",
+      "Type": "Consul"
     }
-  }
-}
-*/
-/*动态路由*/
-/*
-  https://www.cnblogs.com/Zhang-Xiang/p/10437488.html
-*/
-{
-  "ReRoutes": [],
-  "Aggregates": [],
-
-  "GlobalConfiguration": {
-    "RequestIdKey": null,
-    "ServiceDiscoveryProvider": {
-      "Host": "39.105.144.51", /*Consul Client Address*/
-      "Port": 8500,
-      "Type": "Consul",
-      "Token": "",
-      "ConfigurationKey": null
-    
-    },
-    
-    "BaseUrl": "http://43.243.49.57:81",
-    "LoadBalancerOptions": {
-      "Type": "LeastConnection",
-      "Key": null,
-      "Expiry": 0
-    },
-    "DownstreamScheme": "http"
   }
 }
