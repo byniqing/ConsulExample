@@ -1,0 +1,16 @@
+F:\project\ConsulExample\SD.Api\bin\Debug\netcoreapp2.2\appsettings.Development.json
+F:\project\ConsulExample\SD.Api\bin\Debug\netcoreapp2.2\appsettings.json
+F:\project\ConsulExample\SD.Api\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+F:\project\ConsulExample\SD.Api\bin\Debug\netcoreapp2.2\SD.Api.deps.json
+F:\project\ConsulExample\SD.Api\bin\Debug\netcoreapp2.2\SD.Api.runtimeconfig.json
+F:\project\ConsulExample\SD.Api\bin\Debug\netcoreapp2.2\SD.Api.runtimeconfig.dev.json
+F:\project\ConsulExample\SD.Api\bin\Debug\netcoreapp2.2\SD.Api.dll
+F:\project\ConsulExample\SD.Api\obj\Debug\netcoreapp2.2\SD.Api.RazorAssemblyInfo.cache
+F:\project\ConsulExample\SD.Api\obj\Debug\netcoreapp2.2\SD.Api.RazorAssemblyInfo.cs
+F:\project\ConsulExample\SD.Api\obj\Debug\netcoreapp2.2\SD.Api.AssemblyInfoInputs.cache
+F:\project\ConsulExample\SD.Api\obj\Debug\netcoreapp2.2\SD.Api.AssemblyInfo.cs
+F:\project\ConsulExample\SD.Api\obj\Debug\netcoreapp2.2\SD.Api.RazorTargetAssemblyInfo.cache
+F:\project\ConsulExample\SD.Api\obj\Debug\netcoreapp2.2\SD.Api.csprojAssemblyReference.cache
+F:\project\ConsulExample\SD.Api\bin\Debug\netcoreapp2.2\SD.Api.pdb
+F:\project\ConsulExample\SD.Api\obj\Debug\netcoreapp2.2\SD.Api.dll
+F:\project\ConsulExample\SD.Api\obj\Debug\netcoreapp2.2\SD.Api.pdb
